@@ -37,6 +37,9 @@
     roslaunch xsens_mti_driver display.launch
     ```
 
+# 動画
+[![ROS Noetic でうごいた！やったー！](https://i9.ytimg.com/vi/AsNthXPAjJI/mqdefault.jpg?sqp=CJyfmaIG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgUyhDMA8=&rs=AOn4CLDIqS8oMxty2pk0rMCBU_zh2NHgGw)](https://youtu.be/AsNthXPAjJI)
+
 # 参考
 - [xsens_mti_driver - ROS.org](http://wiki.ros.org/xsens_mti_driver)
 - [MTi 1-series Datasheet](https://www.xsens.com/hubfs/Downloads/Manuals/mti-1-series_DK3_user_manual.pdf)
