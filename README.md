@@ -38,6 +38,9 @@
     ```
 
 # 動画
+
+※ 画像をクリックすると YouTube に飛びます
+
 [![ROS Noetic でうごいた！やったー！](https://i9.ytimg.com/vi/AsNthXPAjJI/mqdefault.jpg?sqp=CJyfmaIG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgUyhDMA8=&rs=AOn4CLDIqS8oMxty2pk0rMCBU_zh2NHgGw)](https://youtu.be/AsNthXPAjJI)
 
 # 参考
