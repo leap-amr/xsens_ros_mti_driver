@@ -37,6 +37,35 @@
     roslaunch xsens_mti_driver display.launch
     ```
 
+# ノードとトピック
+```
+Node [/xsens_mti_node]
+Publications: 
+ * /filter/free_acceleration [geometry_msgs/Vector3Stamped]
+ * /filter/positionlla [geometry_msgs/Vector3Stamped]
+ * /filter/quaternion [geometry_msgs/QuaternionStamped]
+ * /filter/twist [geometry_msgs/TwistStamped]
+ * /filter/velocity [geometry_msgs/Vector3Stamped]
+ * /gnss [sensor_msgs/NavSatFix]
+ * /imu/acceleration [geometry_msgs/Vector3Stamped]
+ * /imu/angular_velocity [geometry_msgs/Vector3Stamped]
+ * /imu/data [sensor_msgs/Imu]
+ * /imu/dq [geometry_msgs/QuaternionStamped]
+ * /imu/dv [geometry_msgs/Vector3Stamped]
+ * /imu/mag [geometry_msgs/Vector3Stamped]
+ * /imu/time_ref [sensor_msgs/TimeReference]
+ * /pressure [sensor_msgs/FluidPressure]
+ * /rosout [rosgraph_msgs/Log]
+ * /temperature [sensor_msgs/Temperature]
+ * /tf [tf2_msgs/TFMessage]
+
+Subscriptions: None
+
+Services: 
+ * /xsens_mti_node/get_loggers
+ * /xsens_mti_node/set_logger_level
+```
+
 # 参考
 - [xsens_mti_driver - ROS.org](http://wiki.ros.org/xsens_mti_driver)
 - [MTi 1-series Datasheet](https://www.xsens.com/hubfs/Downloads/Manuals/mti-1-series_DK3_user_manual.pdf)
@@ -45,6 +74,7 @@
 - [Ros noetic support - xsens](https://base.xsens.com/s/question/0D509000016hfSICAY/ros-noetic-support?language=en_US)
 
 # ライセンス
+Lorem ipsum
 
 
 
