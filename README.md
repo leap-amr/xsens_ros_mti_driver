@@ -14,7 +14,13 @@
     git clone https://github.com/leap-amr/xsens_ros_mti_driver
     ```
 
-2. ビルド
+2. Build Depended Library Files
+    ``` cmd
+    cd ~/catkin_ws/src/xsens_ros_mti_driver/lib/xspublic
+    make -j4
+    ```
+
+3. ビルド
     ``` cmd
     cd ~/catkin_ws/
     catkin_make
